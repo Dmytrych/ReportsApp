@@ -4,7 +4,10 @@
     <projectFile>ReportsApp/ReportsApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a082ad7-177d-49e2-a233-e81a15118849" name="Default Changelist" comment="" />
+    <list default="true" id="8a082ad7-177d-49e2-a233-e81a15118849" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/reports-app-client" beforeDir="false" afterPath="$PROJECT_DIR$/Client/reports-app-client" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
         <option value="JSON File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Authentication.Module/Class1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -95,6 +101,7 @@
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zuxCdnpELcAH46Q7Y8lL56j5yi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -154,7 +161,7 @@
       <workItem from="1637754027253" duration="1592000" />
       <workItem from="1637778401439" duration="4550000" />
       <workItem from="1637782994841" duration="2711000" />
-      <workItem from="1637839939140" duration="520000" />
+      <workItem from="1637839939140" duration="1129000" />
     </task>
     <servers />
   </component>
@@ -163,6 +170,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
