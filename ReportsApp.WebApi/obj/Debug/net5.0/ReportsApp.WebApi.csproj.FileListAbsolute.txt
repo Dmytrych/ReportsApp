@@ -1,0 +1,14 @@
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\bin\Debug\net5.0\ReportsApp.WebApi.deps.json
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\bin\Debug\net5.0\ReportsApp.WebApi.dll
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\bin\Debug\net5.0\ref\ReportsApp.WebApi.dll
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\bin\Debug\net5.0\ReportsApp.WebApi.pdb
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\bin\Debug\net5.0\ReportsApp.Authentication.dll
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\bin\Debug\net5.0\ReportsApp.Authentication.pdb
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ReportsApp.WebApi.csproj.AssemblyReference.cache
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ReportsApp.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ReportsApp.WebApi.AssemblyInfoInputs.cache
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ReportsApp.WebApi.AssemblyInfo.cs
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ReportsApp.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ReportsApp.WebApi.dll
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ref\ReportsApp.WebApi.dll
+C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\obj\Debug\net5.0\ReportsApp.WebApi.pdb

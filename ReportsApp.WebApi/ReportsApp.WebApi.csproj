@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ReportsApp.Authentication\ReportsApp.Authentication.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+      <PackageReference Include="Ninject" Version="3.3.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="AppSettings.json" />
+      <EmbeddedResource Include="AppSettings.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Controllers\Services\IStudentService.cs">
+        <DependentUpon>StudentService.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controllers\Domain\StudentRepository\IStudentRepository.cs">
+        <DependentUpon>StudentRepository.cs</DependentUpon>
+      </Compile>
+      <Compile Update="ControllerExecution\IControllerActionResolver.cs">
+        <DependentUpon>ControllerActionResolver.cs</DependentUpon>
+      </Compile>
+      <Compile Update="ControllerExecution\IControllerExecutionApiChainElement.cs">
+        <DependentUpon>ControllerExecutionApiChainElement.cs</DependentUpon>
+      </Compile>
+      <Compile Update="ControllerExecution\IApiController.cs">
+        <DependentUpon>ControllerActionInfo.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controllers\Domain\IStudentContext.cs">
+        <DependentUpon>MsSqlDatabaseContext.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Authentication\IApplicationAuthenticator.cs">
+        <DependentUpon>ApplicationAuthenticator.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controllers\Domain\IUserContext.cs">
+        <DependentUpon>MsSqlDatabaseContext.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controllers\Services\IAuthService.cs">
+        <DependentUpon>AuthService.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controllers\Domain\UserRepository\IUserRepository.cs">
+        <DependentUpon>UserRepository.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+</Project>

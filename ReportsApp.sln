@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportsApp", "ReportsApp\ReportsApp.csproj", "{BE89C74D-9ECB-4E42-9632-F7B57694FD4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportsApp.WebApi", "ReportsApp.WebApi\ReportsApp.WebApi.csproj", "{0DB81818-61A7-490E-975B-74CF703DCEA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportsApp.Authentication", "ReportsApp.Authentication\ReportsApp.Authentication.csproj", "{7E93230E-C1C9-4F64-AE17-43B69B7ECA6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE89C74D-9ECB-4E42-9632-F7B57694FD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE89C74D-9ECB-4E42-9632-F7B57694FD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE89C74D-9ECB-4E42-9632-F7B57694FD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE89C74D-9ECB-4E42-9632-F7B57694FD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB81818-61A7-490E-975B-74CF703DCEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB81818-61A7-490E-975B-74CF703DCEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB81818-61A7-490E-975B-74CF703DCEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB81818-61A7-490E-975B-74CF703DCEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E93230E-C1C9-4F64-AE17-43B69B7ECA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E93230E-C1C9-4F64-AE17-43B69B7ECA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E93230E-C1C9-4F64-AE17-43B69B7ECA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E93230E-C1C9-4F64-AE17-43B69B7ECA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

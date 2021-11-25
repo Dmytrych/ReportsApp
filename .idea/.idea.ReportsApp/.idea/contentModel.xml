@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_ReportsApp.-1357662806.00" t="ExcludeRecursive" />
+    <e p="C:\Users\1\RiderProjects\ReportsApp" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ReportsApp" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ReportsApp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ReportsApp.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ReportsApp.Authentication" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Dto" t="Include">
+          <e p="UserClientDto.cs" t="Include" />
+          <e p="UserInfo.cs" t="Include" />
+          <e p="UserLoginCredentialsDto.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ReportsApp.Authentication.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ReportsApp.Authentication.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ReportsApp.sln" t="IncludeFlat" />
+      <e p="ReportsApp.WebApi" t="IncludeRecursive">
+        <e p="ApiChainCreator.cs" t="Include" />
+        <e p="ApiChainElementBase.cs" t="Include" />
+        <e p="ApiChainExecutionResult.cs" t="Include" />
+        <e p="ApiChainParameter.cs" t="Include" />
+        <e p="ApplicationSettings" t="Include">
+          <e p="ApplicationSettingsProvider.cs" t="Include" />
+          <e p="AppSettings.cs" t="Include" />
+          <e p="IApplicationSettingsProvider.cs" t="Include" />
+        </e>
+        <e p="AppSettings.json" t="Include" />
+        <e p="Authentication" t="Include">
+          <e p="ApplicationAuthenticator.cs" t="Include" />
+          <e p="AuthenticationChainElement.cs" t="Include" />
+          <e p="IApplicationAuthenticator.cs" t="Include" />
+          <e p="IAuthenticationChainElement.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ControllerExecution" t="Include">
+          <e p="ControllerActionInfo.cs" t="Include" />
+          <e p="ControllerActionResolver.cs" t="Include" />
+          <e p="ControllerExecutionApiChainElement.cs" t="Include" />
+          <e p="IApiController.cs" t="Include" />
+          <e p="IControllerActionResolver.cs" t="Include" />
+          <e p="IControllerExecutionApiChainElement.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AuthApiController.cs" t="Include" />
+          <e p="Converters" t="Include">
+            <e p="IDtoConverter.cs" t="Include" />
+            <e p="StudentDtoConverter.cs" t="Include" />
+            <e p="UserDtoConverter.cs" t="Include" />
+          </e>
+          <e p="Domain" t="Include">
+            <e p="Dto" t="Include">
+              <e p="Student.cs" t="Include" />
+              <e p="User.cs" t="Include" />
+            </e>
+            <e p="IDatabaseContext.cs" t="Include" />
+            <e p="IStudentContext.cs" t="Include" />
+            <e p="IUserContext.cs" t="Include" />
+            <e p="MsSqlDatabaseContext.cs" t="Include" />
+            <e p="StudentRepository" t="Include">
+              <e p="IStudentRepository.cs" t="Include" />
+              <e p="StudentRepository.cs" t="Include" />
+            </e>
+            <e p="UserRepository" t="Include">
+              <e p="IUserRepository.cs" t="Include" />
+              <e p="UserRepository.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Dto" t="Include">
+            <e p="UserCredentialsDto.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="AuthService.cs" t="Include" />
+            <e p="IAuthService.cs" t="Include" />
+            <e p="IStudentService.cs" t="Include" />
+            <e p="StudentService.cs" t="Include" />
+          </e>
+          <e p="StudentApiController.cs" t="Include" />
+        </e>
+        <e p="Dto" t="Include">
+          <e p="StudentClientDto.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
+        </e>
+        <e p="IApiChainCreator.cs" t="Include" />
+        <e p="IApiChainElement.cs" t="Include" />
+        <e p="IApiChainExecutionResult.cs" t="Include" />
+        <e p="IApiChainParameter.cs" t="Include" />
+        <e p="Ninject" t="Include">
+          <e p="WebApiNinjectModule.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ReportsApp.WebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ReportsApp.WebApi.csproj" t="IncludeRecursive" />
+        <e p="Routing" t="Include">
+          <e p="ApplicationRouter.cs" t="Include" />
+          <e p="IApplicationRouter.cs" t="Include" />
+          <e p="RoutingResult.cs" t="Include" />
+        </e>
+        <e p="Server" t="Include">
+          <e p="IRequestHandler.cs" t="Include" />
+          <e p="IServerEndpointListener.cs" t="Include" />
+          <e p="RequestHandler.cs" t="Include" />
+          <e p="ServerEndpointListener.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>
