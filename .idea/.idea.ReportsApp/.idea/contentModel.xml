@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\javascript\typings\react-dom\17.0.2\node_modules\@types\prop-types" t="IncludeRecursive" />
-    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\javascript\typings\react-dom\17.0.2\node_modules\@types\react" t="IncludeRecursive" />
-    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\javascript\typings\react-dom\17.0.2\node_modules\@types\react-dom" t="IncludeRecursive" />
-    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\javascript\typings\react-dom\17.0.2\node_modules\@types\scheduler" t="IncludeRecursive" />
-    <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\javascript\typings\react-dom\17.0.2\node_modules\csstype" t="IncludeRecursive" />
     <e p="C:\Users\1\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_ReportsApp.-1357662806.00" t="ExcludeRecursive" />
     <e p="C:\Users\1\RiderProjects\ReportsApp" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
@@ -93,6 +88,7 @@
           <e p="Dto" t="Include">
             <e p="UserCredentialsDto.cs" t="Include" />
           </e>
+          <e p="ReportsApiController.cs" t="Include" />
           <e p="Services" t="Include">
             <e p="AuthService.cs" t="Include" />
             <e p="IAuthService.cs" t="Include" />

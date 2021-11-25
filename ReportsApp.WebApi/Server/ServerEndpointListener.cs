@@ -27,6 +27,7 @@ namespace ReportsApp.WebApi.Server
                 var context = _listener.GetContext();
                 try
                 {
+                    Console.WriteLine("Request");
                     appKernel.Get<IRequestHandler>().Handle(context);
                 }
                 catch (Exception ex)

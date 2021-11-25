@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a082ad7-177d-49e2-a233-e81a15118849" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/reports-app-client" beforeDir="false" afterPath="$PROJECT_DIR$/Client/reports-app-client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +56,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/IControllerActionResolver.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/ControllerActionInfo.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.Service/Class1.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.Service/Controllers/TestApiController.cs" />
@@ -66,7 +74,6 @@
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/ReportsApp.WebApi.csproj" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IStudentRepository.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Student.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/ServerEndpointListener.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Dto/StudentClientDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Authentication/IApplicationAuthenticator.cs" />
@@ -96,8 +103,10 @@
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Dto/UserCredentialsDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/ControllerExecutionApiChainElement.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/AuthApiController.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/RequestHandler.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/ApiChainExecutionResult.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/ServerEndpointListener.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/RequestHandler.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/ReportsApiController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zuxCdnpELcAH46Q7Y8lL56j5yi" />
@@ -162,6 +171,8 @@
       <workItem from="1637778401439" duration="4550000" />
       <workItem from="1637782994841" duration="2711000" />
       <workItem from="1637839939140" duration="1129000" />
+      <workItem from="1637875045953" duration="2000" />
+      <workItem from="1637875721149" duration="3285000" />
     </task>
     <servers />
   </component>
@@ -180,8 +191,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Server/RequestHandler.cs</url>
+          <line>35</line>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Server\RequestHandler.cs" initialLine="35" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="1080" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1166" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
