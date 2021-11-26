@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using ReportsApp.WebApi.Controllers.Converters;
 using ReportsApp.WebApi.Controllers.Domain.Dto;
 using ReportsApp.WebApi.Dto;
@@ -37,5 +38,8 @@ namespace ReportsApp.WebApi.Controllers.Domain.StudentRepository
             => _converter.Convert(
                 _studentContext.Students
                     .FirstOrDefault(student => studentId == student.Id));
+
+        public IReadOnlyCollection<StudentClientDto> GetAllStudents()
+            => _studentContext.Students.Select(s => _converter.Convert(s)).ToList();
     }
 }

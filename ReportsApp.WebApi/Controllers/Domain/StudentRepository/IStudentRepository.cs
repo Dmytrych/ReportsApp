@@ -1,4 +1,5 @@
-﻿using ReportsApp.WebApi.Dto;
+﻿using System.Collections.Generic;
+using ReportsApp.WebApi.Dto;
 
 namespace ReportsApp.WebApi.Controllers.Domain.StudentRepository
 {
@@ -7,5 +8,7 @@ namespace ReportsApp.WebApi.Controllers.Domain.StudentRepository
         StudentClientDto AddStudent(StudentClientDto student);
 
         StudentClientDto GetStudent(int studentId);
+        
+        IReadOnlyCollection<StudentClientDto> GetAllStudents();
     }
 }

@@ -56,44 +56,23 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/ControllerActionInfo.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.Service/Class1.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.Service/Controllers/TestApiController.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/IServerEndpointListener.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/IRequestHandler.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/ApiChainCreator.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/ApplicationSettings/AppSettings.json" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/ApplicationSettings/ApplicationSettingsProvider.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Routing/ApplicationRouter.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/TestApiController.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Dto/StudentDto.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/IApiController.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/IStudentDtoConverter.cs" />
       <option value="$PROJECT_DIR$/ReportsApp/Program.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/ControllerActionResolver.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/ReportsApp.WebApi.csproj" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IStudentRepository.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Student.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Dto/StudentClientDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Authentication/IApplicationAuthenticator.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.Authentication/Dto/IUser.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.Authentication/IUserRepository.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.Authentication/UserRepository.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IStudentContext.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IUserContext.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IDatabaseContext.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/UserClientDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/IDtoConverter.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/StudentDtoConverter.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/StudentRepository/StudentRepository.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/StudentRepository/IStudentRepository.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Authentication/ApplicationAuthenticator.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/User.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.Authentication/Dto/UserClientDto.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/IUserRepository.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/UserRepository.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/UserDtoConverter.cs" />
@@ -106,7 +85,28 @@
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/ApiChainExecutionResult.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/ServerEndpointListener.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Server/RequestHandler.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Dto/ReportResponseDto.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/IReportsBuilder.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/TextReportsBuilder.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/IReportsGenerationManager.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/ReportsGenerationManager.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IReportsGenerationService.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/ReportsApiController.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Dormitory.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Faculty.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Student.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/BenefitCategory.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IStudentContext.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Dto/StudentClientDto.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/StudentDtoConverter.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/StudentRepository/StudentRepository.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/IReportsSpecification.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/StudentRepository/IStudentRepository.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/ReportsSpecification.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IDatabaseContext.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/ReportsGenerationService.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zuxCdnpELcAH46Q7Y8lL56j5yi" />
@@ -172,7 +172,7 @@
       <workItem from="1637782994841" duration="2711000" />
       <workItem from="1637839939140" duration="1129000" />
       <workItem from="1637875045953" duration="2000" />
-      <workItem from="1637875721149" duration="3285000" />
+      <workItem from="1637875721149" duration="12452000" />
     </task>
     <servers />
   </component>

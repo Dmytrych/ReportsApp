@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Dynamic;
 using System.Net;
-using Newtonsoft.Json;
+using System.Text.Json;
 using ReportsApp.WebApi.ControllerExecution;
-using ReportsApp.WebApi.Controllers.Dto;
+using ReportsApp.WebApi.Controllers.Services;
 
 namespace ReportsApp.WebApi.Controllers
 {
     public class ReportsApiController : IApiController
     {
+        private readonly IReportsGenerationService _reportsGenerationService;
+        
         public Dictionary<string, (Func<IApiChainParameter, ApiChainExecutionResult>, bool)> GetActionInfo()
             => new Dictionary<string, (Func<IApiChainParameter, ApiChainExecutionResult>, bool)>
             {
@@ -17,23 +18,21 @@ namespace ReportsApp.WebApi.Controllers
             };
 
         public string GetControllerName() => "ReportsApi";
+
+        public ReportsApiController(IReportsGenerationService reportsGenerationService)
+        {
+            _reportsGenerationService = reportsGenerationService;
+        }
         
         public ApiChainExecutionResult Generate(IApiChainParameter parameter)
         {
-            var studentParseResult = IApiController.ParseDto<UserCredentialsDto>(parameter.Request.InputStream);
+            var report = _reportsGenerationService.Generate();
 
-            if (!studentParseResult.isValid)
-            {
-                return CreateRequest(HttpStatusCode.BadRequest);
-            }
-
-            var registeredUser = _authService.Login(studentParseResult.result.Login, studentParseResult.result.Password);
-
-            return registeredUser == null 
+            return report == null 
                 ? CreateRequest(HttpStatusCode.BadRequest)
                 : CreateRequest(
                     HttpStatusCode.OK,
-                    JsonSerializer.Serialize(registeredUser));
+                    JsonSerializer.Serialize(report));
         }
 
         private ApiChainExecutionResult CreateRequest(

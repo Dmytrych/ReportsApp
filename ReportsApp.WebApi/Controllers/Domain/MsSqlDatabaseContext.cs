@@ -20,5 +20,11 @@ namespace ReportsApp.WebApi.Controllers.Domain
         public DbSet<User> Users { get; set; }
         
         public DbSet<Student> Students { get; set; }
+        
+        public DbSet<Dormitory> Dormitories { get; set; }
+        
+        public DbSet<Faculty> Faculties { get; set; }
+
+        public DbSet<BenefitCategory> BenefitCategories { get; set; }
     }
 }

@@ -50,5 +50,14 @@
       <Compile Update="Controllers\Domain\UserRepository\IUserRepository.cs">
         <DependentUpon>UserRepository.cs</DependentUpon>
       </Compile>
+      <Compile Update="Controllers\Services\IReportsGenerationService.cs">
+        <DependentUpon>ReportsGenerationService.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controllers\Reports\IReportsGenerationManager.cs">
+        <DependentUpon>ReportsGenerationManager.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Controllers\Reports\IReportsSpecification.cs">
+        <DependentUpon>ReportsSpecification.cs</DependentUpon>
+      </Compile>
     </ItemGroup>
 </Project>

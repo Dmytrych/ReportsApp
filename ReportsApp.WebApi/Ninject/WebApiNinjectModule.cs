@@ -9,6 +9,7 @@ using ReportsApp.WebApi.Controllers.Domain;
 using ReportsApp.WebApi.Controllers.Domain.Dto;
 using ReportsApp.WebApi.Controllers.Domain.StudentRepository;
 using ReportsApp.WebApi.Controllers.Domain.UserRepository;
+using ReportsApp.WebApi.Controllers.Reports;
 using ReportsApp.WebApi.Controllers.Services;
 using ReportsApp.WebApi.Dto;
 using ReportsApp.WebApi.Routing;
@@ -28,11 +29,19 @@ namespace ReportsApp.WebApi.Ninject
             Bind<IControllerActionResolver>().To<ControllerActionResolver>();
             Bind<IApplicationAuthenticator>().To<ApplicationAuthenticator>();
             Bind<IControllerExecutionApiChainElement>().To<ControllerExecutionApiChainElement>();
+            BindReporting();
             BindServices();
             BindConverters();
             BindControllers();
             BindDbContext();
             BindRepositories();
+        }
+
+        private void BindReporting()
+        {
+            Bind<IReportsSpecification>().To<ReportsSpecification>();
+            Bind<IReportsBuilder<string>>().To<TextReportsBuilder>();
+            Bind<IReportsGenerationManager>().To<ReportsGenerationManager>();
         }
 
         private void BindRepositories()
@@ -62,6 +71,7 @@ namespace ReportsApp.WebApi.Ninject
 
         private void BindServices()
         {
+            Bind<IReportsGenerationService>().To<ReportsGenerationService>();
             Bind<IStudentService>().To<StudentService>();
             Bind<IAuthService>().To<AuthService>();
         }

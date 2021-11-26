@@ -69,6 +69,9 @@
           </e>
           <e p="Domain" t="Include">
             <e p="Dto" t="Include">
+              <e p="BenefitCategory.cs" t="Include" />
+              <e p="Dormitory.cs" t="Include" />
+              <e p="Faculty.cs" t="Include" />
               <e p="Student.cs" t="Include" />
               <e p="User.cs" t="Include" />
             </e>
@@ -86,13 +89,24 @@
             </e>
           </e>
           <e p="Dto" t="Include">
+            <e p="ReportResponseDto.cs" t="Include" />
             <e p="UserCredentialsDto.cs" t="Include" />
+          </e>
+          <e p="Reports" t="Include">
+            <e p="IReportsBuilder.cs" t="Include" />
+            <e p="IReportsGenerationManager.cs" t="Include" />
+            <e p="IReportsSpecification.cs" t="Include" />
+            <e p="ReportsGenerationManager.cs" t="Include" />
+            <e p="ReportsSpecification.cs" t="Include" />
+            <e p="TextReportsBuilder.cs" t="Include" />
           </e>
           <e p="ReportsApiController.cs" t="Include" />
           <e p="Services" t="Include">
             <e p="AuthService.cs" t="Include" />
             <e p="IAuthService.cs" t="Include" />
+            <e p="IReportsGenerationService.cs" t="Include" />
             <e p="IStudentService.cs" t="Include" />
+            <e p="ReportsGenerationService.cs" t="Include" />
             <e p="StudentService.cs" t="Include" />
           </e>
           <e p="StudentApiController.cs" t="Include" />
