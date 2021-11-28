@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="401b678b-98c9-460c-a91a-10ca14179065" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Client/reports-app-client/src/components/GenerateReportPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/reports-app-client/src/components/StudentManagePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/reports-app-client/src/components/TopBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Dto/StudentFilterClientDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/AndSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/EmptySpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/ISpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/NameFilterSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/SettleFilterSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/StudentSpecification.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -10,15 +19,34 @@
       <change beforePath="$PROJECT_DIR$/Client/reports-app-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/reports-app-client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/reports-app-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/reports-app-client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/reports-app-client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Client/reports-app-client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/AuthApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/AuthApiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/StudentDtoConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/StudentDtoConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Dormitory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Dormitory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/ReportsSpecification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/ReportsSpecification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/TextReportsBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/TextReportsBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/ReportsApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/ReportsApiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/ReportsGenerationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/ReportsGenerationService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Dto/StudentClientDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Dto/StudentClientDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Server/RequestHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Server/RequestHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Server/ServerEndpointListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Server/ServerEndpointListener.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ref/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ref/ReportsApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ref/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ref/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +87,7 @@
       <updated>1637842140039</updated>
       <workItem from="1637842141507" duration="1373000" />
       <workItem from="1637867316780" duration="12340000" />
+      <workItem from="1638097600881" duration="16090000" />
     </task>
     <servers />
   </component>
@@ -75,5 +104,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

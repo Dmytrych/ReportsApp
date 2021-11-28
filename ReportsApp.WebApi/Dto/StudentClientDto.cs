@@ -12,15 +12,13 @@ namespace ReportsApp.WebApi.Dto
         
         public string Surname { get; set; }
 
-        public int DormitoryNumber { get; set; }
+        public string DormitoryNumber { get; set; }
 
         public string FacultyName { get; set; }
-
-        public DateTime BirthDate { get; set; }
         
-        public bool IsBeneficial { get; set; }
+        public bool? IsBeneficial { get; set; }
         
-        public bool IsSettled { get; set; }
+        public bool? IsSettled { get; set; }
 
         public string BenefitCategory { get; set; }
     }

@@ -39,7 +39,7 @@ namespace ReportsApp.WebApi.Controllers.Reports
             foreach (var student in students)
             {
                 BeneficialStudentsSettled +=
-                    $"{student.Name}, {student.Surname}, Birth Date: {student.BirthDate.ToString()}, Benefit: {student.BenefitCategory}, Dormitory: {student.DormitoryNumber}, Faculty: {student.FacultyName}\n";
+                    $"{student.Name}, {student.Surname}, Benefit: {student.BenefitCategory}, Dormitory: {student.DormitoryNumber}, Faculty: {student.FacultyName}\n";
             }
         }
 
@@ -49,17 +49,17 @@ namespace ReportsApp.WebApi.Controllers.Reports
             foreach (var student in students)
             {
                 OrdinaryStudentsSettled +=
-                    $"{student.Name}, {student.Surname}, Birth Date: {student.BirthDate.ToString()}, Dormitory: {student.DormitoryNumber}, Faculty: {student.FacultyName}\n";
+                    $"{student.Name}, {student.Surname}, Dormitory: {student.DormitoryNumber}, Faculty: {student.FacultyName}\n";
             }
         }
 
         public void setNotSettledStudents(IReadOnlyCollection<StudentClientDto> students)
         {
-            StudentsNotSettled = "\n---Ordinary Students Settled---\n";
+            StudentsNotSettled = "\n---Students Not Settled---\n";
             foreach (var student in students)
             {
                 StudentsNotSettled +=
-                    $"{student.Name}, {student.Surname}, Birth Date: {student.BirthDate.ToString()}, Faculty: {student.FacultyName}\n";
+                    $"{student.Name}, {student.Surname}, Faculty: {student.FacultyName}\n";
             }
         }
 

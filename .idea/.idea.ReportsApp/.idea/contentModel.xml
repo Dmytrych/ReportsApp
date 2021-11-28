@@ -90,6 +90,7 @@
           </e>
           <e p="Dto" t="Include">
             <e p="ReportResponseDto.cs" t="Include" />
+            <e p="StudentFilterClientDto.cs" t="Include" />
             <e p="UserCredentialsDto.cs" t="Include" />
           </e>
           <e p="Reports" t="Include">
@@ -110,6 +111,14 @@
             <e p="StudentService.cs" t="Include" />
           </e>
           <e p="StudentApiController.cs" t="Include" />
+          <e p="Students" t="Include">
+            <e p="AndSpecification.cs" t="Include" />
+            <e p="EmptySpecification.cs" t="Include" />
+            <e p="ISpecification.cs" t="Include" />
+            <e p="NameFilterSpecification.cs" t="Include" />
+            <e p="SettleFilterSpecification.cs" t="Include" />
+            <e p="StudentSpecification.cs" t="Include" />
+          </e>
         </e>
         <e p="Dto" t="Include">
           <e p="StudentClientDto.cs" t="Include" />

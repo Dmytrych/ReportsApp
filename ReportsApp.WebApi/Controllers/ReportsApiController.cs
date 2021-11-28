@@ -14,7 +14,7 @@ namespace ReportsApp.WebApi.Controllers
         public Dictionary<string, (Func<IApiChainParameter, ApiChainExecutionResult>, bool)> GetActionInfo()
             => new Dictionary<string, (Func<IApiChainParameter, ApiChainExecutionResult>, bool)>
             {
-                {"Generate", (Generate, true)}
+                {"Generate", (Generate, false)}
             };
 
         public string GetControllerName() => "ReportsApi";

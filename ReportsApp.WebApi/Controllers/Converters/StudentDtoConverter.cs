@@ -27,7 +27,6 @@ namespace ReportsApp.WebApi.Controllers.Converters
                 Name = dto.Name,
                 Surname = dto.Surname,
                 BenefitCategory = _studentContext.BenefitCategories.FirstOrDefault(b => b.Name == dto.BenefitCategory),
-                BirthDate = dto.BirthDate,
                 Dormitory = _studentContext.Dormitories.FirstOrDefault(d => d.Number == dto.DormitoryNumber),
                 Faculty = _studentContext.Faculties.FirstOrDefault(f => f.Name == dto.FacultyName),
                 IsBeneficial = _studentContext.BenefitCategories.FirstOrDefault(b => b.Name == dto.BenefitCategory) != null
@@ -46,11 +45,10 @@ namespace ReportsApp.WebApi.Controllers.Converters
                 Id = dto.Id,
                 Name = dto.Name,
                 Surname = dto.Surname,
-                BenefitCategory = dto.BenefitCategory.Name,
-                BirthDate = dto.BirthDate,
-                DormitoryNumber = dto.Dormitory?.Number ?? 0,
-                FacultyName = dto.Faculty.Name,
-                IsBeneficial = dto.BenefitCategory != null,
+                BenefitCategory = dto.BenefitCategory?.Name,
+                DormitoryNumber = dto.Dormitory?.Number ?? "none",
+                FacultyName = dto.Faculty?.Name,
+                IsBeneficial = dto.IsBeneficial,
                 IsSettled = dto.Dormitory != null
             };
         }

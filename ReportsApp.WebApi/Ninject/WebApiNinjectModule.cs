@@ -59,6 +59,7 @@ namespace ReportsApp.WebApi.Ninject
 
         private void BindControllers()
         {
+            Bind<IApiController>().To<ReportsApiController>();
             Bind<IApiController>().To<StudentApiController>();
             Bind<IApiController>().To<AuthApiController>();
         }

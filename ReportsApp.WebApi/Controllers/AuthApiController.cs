@@ -67,7 +67,14 @@ namespace ReportsApp.WebApi.Controllers
         }
 
         private Cookie CreateAuthCookie(string login, string password)
-            => new(AuthCookieName, string.Concat(login, "\\", password));
+        {
+            var cookie = new Cookie(AuthCookieName, string.Concat(login, "\\", password));
+            cookie.HttpOnly = true;
+            cookie.Expires = DateTime.Now.Add(TimeSpan.FromDays(1));
+            cookie.Secure = true;
+            cookie.Path = "";
+            return cookie;
+        }
 
         private ApiChainExecutionResult CreateRequest(
             HttpStatusCode code,

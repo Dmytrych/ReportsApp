@@ -17,6 +17,13 @@ namespace ReportsApp.WebApi.Controllers.Domain
                 "Data Source=DESKTOP-4FGGBK0\\MSSQLSERVER01;Initial Catalog=ReportsAppDb;Integrated Security=True;");
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Student>().HasOne<Dormitory>(s => s.Dormitory);
+            modelBuilder.Entity<Student>().HasOne<Faculty>(s => s.Faculty);
+            modelBuilder.Entity<Student>().HasOne<BenefitCategory>(s => s.BenefitCategory);
+        }
+
         public DbSet<User> Users { get; set; }
         
         public DbSet<Student> Students { get; set; }

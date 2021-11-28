@@ -25,15 +25,19 @@ namespace ReportsApp.WebApi.Controllers.Services
 
         public ReportResponseDto Generate()
         {
-            var results = SettleCollection(_reportsSpecification.GetBeneficiaryStudents());
-
-            if (!results.allSettled)
-            {
-                return GenerateReport(results.settled, new List<StudentClientDto>(), _reportsSpecification.GetNotSettledStudents());
-            }
+            var students = _reportsSpecification.GetBeneficiaryStudents();
+            var results = SettleCollection(students);
 
             var ordinaryResults = SettleCollection(_reportsSpecification.GetOrdinaryStudents());
 
+            if (results.settled.Count == 0 && ordinaryResults.settled.Count == 0)
+            {
+                return new ReportResponseDto
+                {
+                    Text = ""
+                };
+            }
+            
             return GenerateReport(results.settled, ordinaryResults.settled, _reportsSpecification.GetNotSettledStudents());
         }
 
@@ -73,7 +77,7 @@ namespace ReportsApp.WebApi.Controllers.Services
                 return false;
             }
 
-            var dorm = _studentContext.Dormitories.FirstOrDefault(d => _reportsSpecification.DormitoryHasFreeSpace(d.Id));
+            var dorm = _studentContext.Dormitories.ToList().FirstOrDefault(d => _reportsSpecification.DormitoryHasFreeSpace(d.Id));
 
             if (dorm == null)
             {

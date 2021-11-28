@@ -38,7 +38,8 @@ namespace ReportsApp.WebApi.Server
 
         private void SendResponse(HttpListenerResponse response, int statusCode, string content, List<Cookie> cookies = null)
         {
-            response.AddHeader("Access-Control-Allow-Origin", "*");
+            response.AddHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+            response.AddHeader("Access-Control-Allow-Credentials","true");
             cookies?.ForEach(cookie => response.Cookies.Add(cookie));
             response.ContentType = "application/json";
             response.StatusCode = statusCode;
