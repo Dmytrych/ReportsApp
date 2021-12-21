@@ -5,35 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a082ad7-177d-49e2-a233-e81a15118849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Dto/StudentFilterClientDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/AndSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/EmptySpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/ISpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/NameFilterSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/SettleFilterSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/StudentSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/reports-app-client" beforeDir="false" afterPath="$PROJECT_DIR$/Client/reports-app-client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ref/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ref/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ref/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ref/ReportsApp.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +27,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Authentication.Module/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/F/HttpListenerRequest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FDBA61E3-C78E-4F87-82E9-94CE59FDA0FE/D/CookieCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/19/First.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Authentication.Module/Dto/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/46/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E99F433-39E6-42AF-832C-2F931A8312C2/aa/9d6a7188/TcpListener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/13/HttpListener.Windows.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB5DC1D3-D15F-4495-BFBB-F3BCE7A5EC63/6B/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/IApiController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6ED808FB-783E-4747-B1B4-F9CA3E61615D/12/WebResponse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Authentication.Module/IAuthenticationService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/12/HttpListener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6ED808FB-783E-4747-B1B4-F9CA3E61615D/B/HttpWebResponse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB5DC1D3-D15F-4495-BFBB-F3BCE7A5EC63/11E/ModelValidator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ReportsApp.Service/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/3C/Where.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/879E6415-0FE4-4207-9FAD-D555EDE677AA/0/ICollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F6E95DAD-AAD3-413E-AA85-6D6A482EC716/54/SqlServerDatabaseCreator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53C13AE0-C80F-4B27-84AB-381628F2ECF7/150/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/879E6415-0FE4-4207-9FAD-D555EDE677AA/4d/6b17a859/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB5DC1D3-D15F-4495-BFBB-F3BCE7A5EC63/6B/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB5DC1D3-D15F-4495-BFBB-F3BCE7A5EC63/11E/ModelValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Authentication.Module/IAuthenticationService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6ED808FB-783E-4747-B1B4-F9CA3E61615D/12/WebResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/12/HttpListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Authentication.Module/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53C13AE0-C80F-4B27-84AB-381628F2ECF7/150/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6ED808FB-783E-4747-B1B4-F9CA3E61615D/B/HttpWebResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ReportsApp.Service/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FDBA61E3-C78E-4F87-82E9-94CE59FDA0FE/D/CookieCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/F/HttpListenerRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/19/First.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/879E6415-0FE4-4207-9FAD-D555EDE677AA/0/ICollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Authentication.Module/Dto/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/13/HttpListener.Windows.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F6E95DAD-AAD3-413E-AA85-6D6A482EC716/54/SqlServerDatabaseCreator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/3C/Where.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/46/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/IApiController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -196,6 +171,8 @@
       <workItem from="1638026485635" duration="1169000" />
       <workItem from="1638087056096" duration="4010000" />
       <workItem from="1638097436598" duration="16969000" />
+      <workItem from="1639084839602" duration="899000" />
+      <workItem from="1639430391987" duration="30000" />
     </task>
     <servers />
   </component>
