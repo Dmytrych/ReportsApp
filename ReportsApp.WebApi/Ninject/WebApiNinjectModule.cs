@@ -48,6 +48,7 @@ namespace ReportsApp.WebApi.Ninject
         {
             Bind<IUserRepository>().To<UserRepository>();
             Bind<IStudentRepository>().To<StudentRepository>();
+            Bind<IExternalUserRepository>().To<ExternalUserRepository>();
         }
 
         private void BindDbContext()

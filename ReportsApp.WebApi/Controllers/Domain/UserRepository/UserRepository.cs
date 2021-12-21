@@ -9,11 +9,16 @@ namespace ReportsApp.WebApi.Controllers.Domain.UserRepository
     {
         private readonly IUserContext _userContext;
         private readonly IDtoConverter<User, UserClientDto> _userConverter;
+        private readonly IExternalUserRepository _externalUserRepository;
         
-        public UserRepository(IUserContext userContext, IDtoConverter<User, UserClientDto> userConverter)
+        public UserRepository(
+            IUserContext userContext,
+            IDtoConverter<User, UserClientDto> userConverter,
+            IExternalUserRepository externalUserRepository)
         {
             _userContext = userContext;
             _userConverter = userConverter;
+            _externalUserRepository = externalUserRepository;
         }
 
         public UserClientDto GetUser(string login, string password)

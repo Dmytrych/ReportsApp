@@ -10,3 +10,15 @@ C:\Users\1\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\R
 C:\Users\1\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.dll
 C:\Users\1\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ref\ReportsApp.Authentication.dll
 C:\Users\1\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.pdb
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\bin\Debug\net5.0\ReportsApp.Authentication.deps.json
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\bin\Debug\net5.0\ReportsApp.Authentication.dll
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\bin\Debug\net5.0\ref\ReportsApp.Authentication.dll
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\bin\Debug\net5.0\ReportsApp.Authentication.pdb
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.csprojAssemblyReference.cache
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.AssemblyInfoInputs.cache
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.AssemblyInfo.cs
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.csproj.CoreCompileInputs.cache
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.dll
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ref\ReportsApp.Authentication.dll
+C:\Users\Lampa\RiderProjects\ReportsApp\ReportsApp.Authentication\obj\Debug\net5.0\ReportsApp.Authentication.pdb

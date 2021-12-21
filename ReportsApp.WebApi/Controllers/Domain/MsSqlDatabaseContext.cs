@@ -14,7 +14,7 @@ namespace ReportsApp.WebApi.Controllers.Domain
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer(
-                "Data Source=DESKTOP-4FGGBK0\\MSSQLSERVER01;Initial Catalog=ReportsAppDb;Integrated Security=True;");
+                "Data Source=DESKTOP-B69V4OT;Initial Catalog=ReportsAppDb;Integrated Security=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

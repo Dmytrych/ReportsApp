@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj": {}
+    "C:\\Users\\Lampa\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj": {
+    "C:\\Users\\Lampa\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\Lampa\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj",
         "projectName": "ReportsApp.Authentication",
-        "projectPath": "C:\\Users\\1\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj",
-        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\obj\\",
+        "projectPath": "C:\\Users\\Lampa\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\ReportsApp.Authentication.csproj",
+        "packagesPath": "C:\\Users\\Lampa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lampa\\RiderProjects\\ReportsApp\\ReportsApp.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Lampa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
         }
       }
     }

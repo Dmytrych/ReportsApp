@@ -5,35 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a082ad7-177d-49e2-a233-e81a15118849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Dto/StudentFilterClientDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/AndSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/EmptySpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/ISpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/NameFilterSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/SettleFilterSpecification.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/StudentSpecification.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/ExternalUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/IExternalUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReportsApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/reports-app-client" beforeDir="false" afterPath="$PROJECT_DIR$/Client/reports-app-client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/bin/Debug/net5.0/ReportsApp.Authentication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/bin/Debug/net5.0/ReportsApp.Authentication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/bin/Debug/net5.0/ReportsApp.Authentication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/bin/Debug/net5.0/ReportsApp.Authentication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/Debug/net5.0/ReportsApp.Authentication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/ReportsApp.Authentication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/ReportsApp.Authentication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/ReportsApp.Authentication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/ReportsApp.Authentication.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.Authentication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.Authentication/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IStudentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/ReportsApp.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/ReportsApp.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.Authentication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.Authentication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.Authentication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.Authentication.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ref/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/bin/Debug/net5.0/ref/ReportsApp.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ref/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/Debug/net5.0/ref/ReportsApp.WebApi.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/ReportsApp.WebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/ReportsApp.WebApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/ReportsApp.WebApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/ReportsApp.WebApi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp.WebApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp.WebApi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.Authentication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.Authentication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.Authentication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.Authentication.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.WebApi.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/bin/Debug/net5.0/ReportsApp.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/ReportsApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/Debug/net5.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/ReportsApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/ReportsApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/ReportsApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/ReportsApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReportsApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReportsApp/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,37 +87,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Authentication.Module/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/F/HttpListenerRequest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/FDBA61E3-C78E-4F87-82E9-94CE59FDA0FE/D/CookieCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/19/First.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Authentication.Module/Dto/User.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/46/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0E99F433-39E6-42AF-832C-2F931A8312C2/aa/9d6a7188/TcpListener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/13/HttpListener.Windows.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB5DC1D3-D15F-4495-BFBB-F3BCE7A5EC63/6B/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/IApiController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6ED808FB-783E-4747-B1B4-F9CA3E61615D/12/WebResponse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Authentication.Module/IAuthenticationService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/363E4747-4514-46FA-9EB4-62F966DB0CC7/12/HttpListener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6ED808FB-783E-4747-B1B4-F9CA3E61615D/B/HttpWebResponse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB5DC1D3-D15F-4495-BFBB-F3BCE7A5EC63/11E/ModelValidator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ReportsApp.Service/Class1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/462EAAF1-13EB-4FA2-A240-7BEC433B831D/3C/Where.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/879E6415-0FE4-4207-9FAD-D555EDE677AA/0/ICollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F6E95DAD-AAD3-413E-AA85-6D6A482EC716/54/SqlServerDatabaseCreator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53C13AE0-C80F-4B27-84AB-381628F2ECF7/150/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/879E6415-0FE4-4207-9FAD-D555EDE677AA/4d/6b17a859/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Authentication.Module/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Authentication.Module/IAuthenticationService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Authentication.Module/Dto/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/IApiController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IUserContext.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/UserClientDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/IDtoConverter.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/User.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.Authentication/Dto/UserClientDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/IUserRepository.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/UserRepository.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/UserDtoConverter.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/IAuthService.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/AuthService.cs" />
@@ -102,7 +118,6 @@
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/IReportsSpecification.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/StudentRepository/IStudentRepository.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/IDatabaseContext.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Dto/UserFilterClientDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/ISpecification.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/CompositeSpecification.cs" />
@@ -116,7 +131,6 @@
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Dto/StudentClientDto.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/Dto/Dormitory.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/ReportsApiController.cs" />
-      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/TextReportsBuilder.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Reports/ReportsSpecification.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/ReportsGenerationService.cs" />
@@ -127,6 +141,11 @@
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/AndSpecification.cs" />
       <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Students/SettleFilterSpecification.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/IExternalUserRepository.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Ninject/WebApiNinjectModule.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/ExternalUserRepository.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/UserRepository/UserRepository.cs" />
+      <option value="$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Domain/MsSqlDatabaseContext.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zuxCdnpELcAH46Q7Y8lL56j5yi" />
@@ -141,7 +160,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -196,6 +216,9 @@
       <workItem from="1638026485635" duration="1169000" />
       <workItem from="1638087056096" duration="4010000" />
       <workItem from="1638097436598" duration="16969000" />
+      <workItem from="1640076136695" duration="4364000" />
+      <workItem from="1640081035590" duration="182000" />
+      <workItem from="1640081332607" duration="615000" />
     </task>
     <servers />
   </component>
@@ -225,131 +248,61 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs</url>
           <line>30</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\StudentApiController.cs" initialLine="29" containingFunctionPresentation="method 'Add'">
-            <startOffsets>
-              <option value="1027" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1028" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\StudentApiController.cs" initialLine="29" containingFunctionPresentation="method 'Add'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Authentication/ApplicationAuthenticator.cs</url>
           <line>16</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Authentication\ApplicationAuthenticator.cs" initialLine="16" containingFunctionPresentation="method 'Authenticate'">
-            <startOffsets>
-              <option value="529" />
-            </startOffsets>
-            <endOffsets>
-              <option value="530" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Authentication\ApplicationAuthenticator.cs" initialLine="16" containingFunctionPresentation="method 'Authenticate'" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Server/RequestHandler.cs</url>
           <line>22</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Server\RequestHandler.cs" initialLine="22" containingFunctionPresentation="method 'Handle'">
-            <startOffsets>
-              <option value="665" />
-            </startOffsets>
-            <endOffsets>
-              <option value="666" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Server\RequestHandler.cs" initialLine="22" containingFunctionPresentation="method 'Handle'" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Controllers/ReportsApiController.cs</url>
           <line>27</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\ReportsApiController.cs" initialLine="27" containingFunctionPresentation="method 'Generate'">
-            <startOffsets>
-              <option value="985" />
-            </startOffsets>
-            <endOffsets>
-              <option value="986" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\ReportsApiController.cs" initialLine="27" containingFunctionPresentation="method 'Generate'" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/ControllerExecution/ControllerExecutionApiChainElement.cs</url>
           <line>25</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\ControllerExecution\ControllerExecutionApiChainElement.cs" initialLine="25" containingFunctionPresentation="method 'Execute'">
-            <startOffsets>
-              <option value="954" />
-            </startOffsets>
-            <endOffsets>
-              <option value="955" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\ControllerExecution\ControllerExecutionApiChainElement.cs" initialLine="25" containingFunctionPresentation="method 'Execute'" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/ReportsGenerationService.cs</url>
           <line>56</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Services\ReportsGenerationService.cs" initialLine="53" containingFunctionPresentation="method 'SettleCollection'">
-            <startOffsets>
-              <option value="2209" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2210" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Services\ReportsGenerationService.cs" initialLine="53" containingFunctionPresentation="method 'SettleCollection'" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Controllers/StudentApiController.cs</url>
           <line>52</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\StudentApiController.cs" initialLine="52" containingFunctionPresentation="method 'GetFilteredStudents'">
-            <startOffsets>
-              <option value="1873" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1874" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\StudentApiController.cs" initialLine="52" containingFunctionPresentation="method 'GetFilteredStudents'" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Converters/StudentDtoConverter.cs</url>
           <line>36</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Converters\StudentDtoConverter.cs" initialLine="36" containingFunctionPresentation="method 'Convert'">
-            <startOffsets>
-              <option value="1332" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1333" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Converters\StudentDtoConverter.cs" initialLine="36" containingFunctionPresentation="method 'Convert'" />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs</url>
           <line>33</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Services\StudentService.cs" initialLine="33" containingFunctionPresentation="method 'FilterStudents'">
-            <startOffsets>
-              <option value="1099" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1100" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Services\StudentService.cs" initialLine="33" containingFunctionPresentation="method 'FilterStudents'" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ReportsApp.WebApi/Controllers/Services/StudentService.cs</url>
           <line>51</line>
-          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Services\StudentService.cs" initialLine="51" containingFunctionPresentation="lambda expression inside method 'FilterStudents'">
-            <startOffsets>
-              <option value="1715" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1736" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\1\RiderProjects\ReportsApp\ReportsApp.WebApi\Controllers\Services\StudentService.cs" initialLine="51" containingFunctionPresentation="lambda expression inside method 'FilterStudents'" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
