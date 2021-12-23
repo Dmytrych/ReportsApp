@@ -23,13 +23,14 @@ namespace ReportsApp.WebApi.Controllers.Domain.UserRepository
 
         public UserClientDto GetUser(string login, string password)
         {
-            var foundUser = _userContext.Users.FirstOrDefault(user => user.Login == login && user.Password == password);
+            var foundUser = _userContext.Users.Union(_externalUserRepository.GetUsers()).FirstOrDefault(user => user.Login == login && user.Password == password);
             return _userConverter.Convert(foundUser);
         }
 
         public UserClientDto AddUser(UserClientDto user)
         {
             var existingUser = _userContext.Users
+                .Union(_externalUserRepository.GetUsers())
                 .FirstOrDefault(usr => usr.Login == user.Login || usr.Password == user.Password);
 
             if (existingUser != null)

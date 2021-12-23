@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using ReportsApp.Authentication.Dto;
+using ReportsApp.WebApi.Controllers.Domain.Dto;
 
 namespace ReportsApp.WebApi.Controllers.Domain.UserRepository
 {
     public interface IExternalUserRepository
     {
-        public IReadOnlyCollection<UserClientDto> GetAll();
+        IReadOnlyCollection<User> GetUsers();
     }
 }

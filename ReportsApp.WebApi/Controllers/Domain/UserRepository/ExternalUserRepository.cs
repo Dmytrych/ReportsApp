@@ -2,46 +2,46 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using Newtonsoft.Json;
-using ReportsApp.Authentication.Dto;
-using JsonSerializer = System.Text.Json.JsonSerializer;
+using System.Text.Json;
+using ReportsApp.WebApi.Controllers.Domain.Dto;
 
 namespace ReportsApp.WebApi.Controllers.Domain.UserRepository
 {
     public class ExternalUserRepository : IExternalUserRepository
     {
-        private readonly string[] _uris = new[] {"http://localhost:5002/"};
-        
-        public  IReadOnlyCollection<UserClientDto> GetAll()
+        private List<string> ServiceUris = new List<string>
         {
-            var users = new List<UserClientDto>();
-            
-            foreach (var uri in _uris)
+            "localhost:5002"
+        };
+        
+        public IReadOnlyCollection<User> GetUsers()
+        {
+            var users = new List<User>();
+
+            foreach (var uri in ServiceUris)
             {
-                var response = WebRequest.CreateHttp(uri).GetResponse();
-
-                var responseStream = response.GetResponseStream();
-
-                if (responseStream == null)
-                {
-                    continue;
-                }
-
-                using var reader = new StreamReader(responseStream);
-                var content = reader.ReadToEnd();
-                Console.WriteLine(content);
-            
-                try
-                {
-                    users.AddRange(JsonSerializer.Deserialize<List<UserClientDto>>(content) ?? new List<UserClientDto>());
-                }
-                catch (JsonException)
-                {
-                    continue;
-                }
+                users.AddRange(GetSingleSourceUsers(uri));
             }
 
             return users;
+        }
+
+        private IReadOnlyCollection<User> GetSingleSourceUsers(string uri)
+        {
+            var res = WebRequest.CreateHttp(uri).GetResponse();
+
+            using Stream stream = res.GetResponseStream();
+            using StreamReader reader = new StreamReader(stream);
+
+            try
+            {
+                return JsonSerializer.Deserialize<List<User>>(reader.ReadToEnd());
+            }
+            catch (JsonException)
+            {
+                Console.WriteLine("Data from url could not be reached: " + uri);
+                return new List<User>();
+            }
         }
     }
 }
