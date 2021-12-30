@@ -9,7 +9,6 @@ export default function StudentManagePage({isAuthenticated}) {
     const [student, setStudent] = useState({
         Name: "",
         Surname: "",
-        DormitoryNumber: "",
         FacultyName: "",
         BenefitCategory: ""
     })
@@ -56,9 +55,6 @@ export default function StudentManagePage({isAuthenticated}) {
                 </Box>
                 <Box>
                     <TextField onChange={handle('Surname')} label="Surname" margin="normal"/>
-                </Box>
-                <Box>
-                    <TextField onChange={handle('DormitoryNumber')} type="number" label="Dormitory Number" margin="normal"/>
                 </Box>
                 <Box>
                     <TextField onChange={handle('FacultyName')} label="Faculty Name" margin="normal"/>

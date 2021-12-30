@@ -62,5 +62,8 @@
       <Compile Update="Controllers\Domain\UserRepository\IExternalUserRepository.cs">
         <DependentUpon>ExternalUserRepository.cs</DependentUpon>
       </Compile>
+      <Compile Update="Controllers\Services\IDormitoryService.cs">
+        <DependentUpon>DormitoryService.cs</DependentUpon>
+      </Compile>
     </ItemGroup>
 </Project>

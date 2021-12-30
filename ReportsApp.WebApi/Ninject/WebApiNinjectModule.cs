@@ -48,6 +48,7 @@ namespace ReportsApp.WebApi.Ninject
         {
             Bind<IUserRepository>().To<UserRepository>();
             Bind<IStudentRepository>().To<StudentRepository>();
+            Bind<IExternalUserRepository>().To<ExternalUserRepository>();
         }
 
         private void BindDbContext()
@@ -55,6 +56,7 @@ namespace ReportsApp.WebApi.Ninject
             var dbContext = new MsSqlDatabaseContext();
             Bind<IUserContext>().ToConstant(dbContext);
             Bind<IStudentContext>().ToConstant(dbContext);
+            Bind<IDormitoryContext>().ToConstant(dbContext);
         }
 
         private void BindControllers()
@@ -62,6 +64,7 @@ namespace ReportsApp.WebApi.Ninject
             Bind<IApiController>().To<ReportsApiController>();
             Bind<IApiController>().To<StudentApiController>();
             Bind<IApiController>().To<AuthApiController>();
+            Bind<IApiController>().To<FacultyApiController>();
         }
 
         private void BindConverters()
@@ -75,6 +78,7 @@ namespace ReportsApp.WebApi.Ninject
             Bind<IReportsGenerationService>().To<ReportsGenerationService>();
             Bind<IStudentService>().To<StudentService>();
             Bind<IAuthService>().To<AuthService>();
+            Bind<IDormitoryService>().To<DormitoryService>();
         }
     }
 }

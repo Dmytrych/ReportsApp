@@ -11,7 +11,7 @@ namespace ReportsApp.WebApi.Controllers.Domain.UserRepository
     {
         private List<string> ServiceUris = new List<string>
         {
-            "localhost:5002"
+            "http://localhost:5002"
         };
         
         public IReadOnlyCollection<User> GetUsers()

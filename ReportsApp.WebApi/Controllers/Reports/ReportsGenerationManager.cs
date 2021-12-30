@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using ReportsApp.WebApi.Dto;
 
 namespace ReportsApp.WebApi.Controllers.Reports
@@ -18,9 +19,22 @@ namespace ReportsApp.WebApi.Controllers.Reports
             IReadOnlyCollection<StudentClientDto> beneficiaryStudents)
         {
             _textReportsBuilder.setStatistics(ordinaryStudents.Count + beneficiaryStudents.Count, notSettledStudents.Count, beneficiaryStudents.Count);
-            _textReportsBuilder.setBeneficialStudents(beneficiaryStudents);
-            _textReportsBuilder.setOrinaryStudents(ordinaryStudents);
-            _textReportsBuilder.setNotSettledStudents(notSettledStudents);
+
+            if (beneficiaryStudents.Any())
+            {
+                _textReportsBuilder.setBeneficialStudents(beneficiaryStudents);
+            }
+
+            if (ordinaryStudents.Any())
+            {
+                _textReportsBuilder.setOrinaryStudents(ordinaryStudents);
+            }
+
+            if (notSettledStudents.Any())
+            {
+                _textReportsBuilder.setNotSettledStudents(notSettledStudents);
+            }
+            
             return _textReportsBuilder.GetResult();
         }
     }
